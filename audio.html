@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header js-header">
+    <div class="container">
+      <nav class="header__nav">
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="./images/logo.svg" alt="логотип">
+        </a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link current" href="services.html">
+              Услуги
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="price-list.html">
+              Прайс-лист
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="about.html">
+              О компании
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="contacts.html">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <a class="header__phone" href="tel:74992262928">
+          +7 499 226 29 28
+        </a>
+        <button class="header__menu-btn" type="button">
+          <span class="header__menu-line"></span>
+          <span class="sr-only">открыть меню</span>
+        </button>
+      </nav>
+      <div class="mobile-menu">
+        <div class="mobile-menu__box">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="./images/logoContacts.svg" alt="логотип">
+          </a>
+          <button class="close" type="button">
+            <span class="close__line"></span>
+            <span class="sr-only">закрыть меню</span>
+          </button>
+        </div>
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link current" href="services.html">
+              Услуги
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="audio.html">
+              Ремонт аудио техники
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="repair-micro.html">
+              Ремонт видео техники
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="repair-micro.html">
+              Ремонт телефонов
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="repair-micro.html">
+              Ремонт электротранспорта
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="price-list.html">
+              Прайс-лист
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="about.html">
+              О компании
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="contacts.html">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="sr-only">
+      Страница ремонта аудиотехники сервсиного центра К-репаир
+    </h1>
+
+    <div class="tabs tabs--gray">
+      <div class="container">
+        <ul class="tabs__list">
+          <li class="tabs__item">
+            <a class="tabs__link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="tabs__link" href="#">
+              Услуги
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="tabs__link" href="#">
+              Ремонт аудиотехники
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="audio-category">
+      <div class="container">
+        <div class="audio-category__top">
+          <h2 class="title title--black">
+            ремонт
+            <span class="subtitle">
+              аудиотехники
+            </span>
+          </h2>
+          <p class="audio-category__text text text--black text--m">
+            Мы выполняем качественный ремонт аудиотехники, включая колонки, усилители и прочее оборудование, выдаем гарантию и имеем
+            необходимые запчасти в наличие
+          </p>
+        </div>
+        <ul class="audio-category__list">
+          <li class="audio-category__item">
+            <a class="audio-category__link" href="repair-micro.html">
+              <svg class="audio-category__link-icon" width="30" height="30">
+                <use href="./images/symbol-defs.svg#icon-trending_neutral"></use>
+              </svg>
+              <span class="audio-category__link-text">
+                Ремонт микрофонов
+              </span>
+            </a>
+          </li>
+          <li class="audio-category__item">
+            <a class="audio-category__link" href="repair-micro.html">
+              <svg class="audio-category__link-icon" width="30" height="30">
+                <use href="./images/symbol-defs.svg#icon-trending_neutral"></use>
+              </svg>
+              <span class="audio-category__link-text">
+                Ремонт радиосистем
+              </span>
+            </a>
+          </li>
+          <li class="audio-category__item">
+            <a class="audio-category__link" href="repair-micro.html">
+              <svg class="audio-category__link-icon" width="30" height="30">
+                <use href="./images/symbol-defs.svg#icon-trending_neutral"></use>
+              </svg>
+              <span class="audio-category__link-text">
+                Ремонт рекордеров
+              </span>
+            </a>
+          </li>
+          <li class="audio-category__item">
+            <a class="audio-category__link" href="repair-micro.html">
+              <svg class="audio-category__link-icon" width="30" height="30">
+                <use href="./images/symbol-defs.svg#icon-trending_neutral"></use>
+              </svg>
+              <span class="audio-category__link-text">
+                Ремонт радиосинхронизаторов
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="audio-about">
+      <div class="container">
+        <h2 class="audio-about__title">
+          Что мы
+          <span class="audio-about__subtitle">
+            ремонтируем
+          </span>
+        </h2>
+
+        <ul class="audio-about__list">
+          <li class="audio-about__item">
+            <p class="audio-about__text">
+              Мы специализируемся на ремонте сценических и студийных микрофонов, хорошо разбираемся в особенностях работы как
+              проводных, так и беспроводных версий. Нередко у них возникает поломка конденсатора, отходят контакты, теряется
+              радиосвязь. Такое случается из-за окисления материалов или после падения. Проблема может проявляться в виде посторонних
+              шумов (шипение, клацание) или отсутствии звука на принимающем устройстве.
+            </p>
+          </li>
+          <li class="audio-about__item">
+            <p class="audio-about__text">
+              Часто к нам обращаются за ремонтом рекордеров, используемых для студийной и внестудийной записи звука. У такого
+              оборудования могут быть программные ошибки, неправильные настройки, сбои, которые наши мастера обнаружат и устранят.
+              Ремонт аудио аппаратуры может потребовать замены привода для записи на диск или установки другого носителя, иногда
+              требуется пайка нового преобразователя сигнала и других узлов. Все это есть у нас в сервисе аудиотехники, что поможет
+              сэкономить ваше время.
+            </p>
+          </li>
+          <li class="audio-about__item">
+            <p class="audio-about__text">
+              Наш специалист выполнит диагностику устройства, найдет причину поломки, озвучит, какой ремонт звукового оборудования
+              потребуется, и назовет цену. Приступаем к работе только после согласования стоимости с клиентом.
+            </p>
+          </li>
+          <li class="audio-about__item">
+            <p class="audio-about__text">
+              Ремонт аудио колонок нуждается в замене динамиков (всех или только отдельных), восстановлении электрической цепи,
+              устранении вибраций и дребезжания для обеспечения чистого акустического эффекта. Все это выполнят наши специалисты.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="advantages section">
+      <div class="container">
+        <div class="advantages__top">
+          <h2 class="title title--black">
+            Наши
+            <span class="subtitle">
+              Преимущества
+            </span>
+          </h2>
+          <p class="text text--black">
+            Сервисный центр KRepair является клиентоориентированным, на первом месте у нас гарантированное качественное
+            и надежное
+            решение задач клиента
+          </p>
+        </div>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--gray">
+            <h3 class="advantages__item-title">
+              Удаленная диагностика
+            </h3>
+            <p class="advantages__item-text">
+              Проведем предварительную диагностику по видео с неисправностью от клиента и сориентируем по стоимости
+              ремонта
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--black">
+            <h3 class="advantages__item-title">
+              Покажем причины неисправности
+            </h3>
+            <p class="advantages__item-text">
+              Сделаем бесплатную диагностику и предоставим видео запись. Инжинер даст комментарии о причинах
+              неисправности, чтобы у
+              вас не осталось сомнений
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--pink">
+            <h3 class="advantages__item-title">
+              Прозрачная цена
+            </h3>
+            <p class="advantages__item-text">
+              Заранее согласуем цену, честную и конкурентную, которая соответствует цене в прайс-листе на нашем сайте
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="brends">
+      <div class="container">
+        <h2 class="brends__title title title--black">
+          Мы работаем с этими брендами
+          <span class="subtitle">
+            И не только
+          </span>
+        </h2>
+        <div class="brends__wrapper">
+          <ul class="brends__list">
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/aputure.jpg" alt="логотип апьютер">
+
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/artisans.jpg" alt="логотипартисанс">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/boling.jpg" alt="логотип болинг">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/cvw.jpg" alt="логотип сививу">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/cynco.jpg" alt="логотип синко">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/deity.jpg" alt="логотип дити">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/feelworld.jpg" alt="логотип фиилворлд">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/godox.jpg" alt="логотип годокс">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/nokon.jpg" alt="логотип никон">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/portkeys.jpg" alt="логотиппорткейс">
+
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/sirui.jpg" alt="логотип сирай">
+              </div>
+            </li>
+            <li class="brends__item">
+              <div class="brends__box">
+                <img class="brends__img" src="./images/brends/sony.jpg" alt="логотип сони">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title title title--black">
+          Отзывы наших
+          <span class="subtitle">
+            клиентов
+          </span>
+        </h2>
+        <ul class="reviews__list">
+          <li class="reviews__card reviews__card--google">
+            <a class="reviews__link" href="#">
+              <blockquote class="reviews__bq">
+                <div class="reviews__box">
+                  <cite class="reviews__author">
+                    Анастасия
+                  </cite>
+                  <time class="reviews__time" datetime="2022-02-23">
+                    Дата: 2022-02-23
+                  </time>
+                </div>
+                Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают
+                гарантию,что
+                самое главное ...
+              </blockquote>
+              <div class="reviews__inner">
+                <span class="reviews__more">
+                  читать полностью
+                </span>
+                <div class="reviews__rating" data-rateyo-rating="4"></div>
+              </div>
+            </a>
+          </li>
+          <li class="reviews__card reviews__card--yandex">
+            <a class="reviews__link" href="#">
+              <blockquote class="reviews__bq">
+                <div class="reviews__box">
+                  <cite class="reviews__author">
+                    Ирек
+                  </cite>
+                  <time class="reviews__time" datetime="2022-02-23">
+                    Дата: 2022-02-23
+                  </time>
+                </div>
+                Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают
+                гарантию,что
+                самое главное ...
+              </blockquote>
+              <div class="reviews__inner">
+                <span class="reviews__more">
+                  читать полностью
+                </span>
+                <div class="reviews__rating" data-rateyo-rating="5"></div>
+              </div>
+            </a>
+          </li>
+          <li class="reviews__card reviews__card--google">
+            <a class="reviews__link" href="#">
+              <blockquote class="reviews__bq">
+                <div class="reviews__box">
+                  <cite class="reviews__author">
+                    Евгения
+                  </cite>
+                  <time class="reviews__time" datetime="2022-02-23">
+                    Дата: 2022-02-23
+                  </time>
+                </div>
+                Спасибо большое сервисному центру. Удобный график работы. Можно записаться через социальные сети. Дают
+                гарантию,что
+                самое главное ...
+              </blockquote>
+              <div class="reviews__inner">
+                <span class="reviews__more">
+                  читать полностью
+                </span>
+                <div class="reviews__rating" data-rateyo-rating="4.5"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="questions section">
+      <div class="container">
+        <div class="questions__top">
+          <h2 class="questions__title title">
+            У вас остались
+            <span class="subtitle">
+              вопросы?
+            </span>
+          </h2>
+          <p class="questions__text">
+            Оставьте заявку, мы свяжемся с вами и ответим на них
+          </p>
+        </div>
+
+        <form class="questions__form">
+          <div class="questions__wrapper">
+            <div class="questions__forms">
+              <input class="questions__input" type="text" name="userName" placeholder="Ваше имя">
+              <input class="questions__input" type="email" name="useEemail" placeholder="E-mail">
+              <input class="questions__input" type="text" name="userPhone" placeholder="Телефон*">
+            </div>
+            <div class="questions__labels">
+              <label class="questions__label-textarea">
+                <textarea class="questions__textarea" placeholder="Опишите проблему и добавьте видео неисправности"
+                  maxlength="500"></textarea>
+              </label>
+              <label class="questions__label-file" for="file">
+                <svg class="questions__file-icon" width="22" height="22">
+                  <use href="./images/symbol-defs.svg#icon-paper_attachment_clip_icon-1"></use>
+                </svg>
+                <input class="questions__file" type="file" id="file">
+              </label>
+            </div>
+          </div>
+          <div class="questions__box">
+            <button class="btn btn--accent" type="submit">
+              Оставить заявку
+            </button>
+            <p class="questions__agree">
+              Нажимая на данную кнопку вы соглашаетесь с политикой конфиденциальности
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="сontacts">
+      <div class="container">
+        <ul class="сontacts__list">
+          <li class="сontacts__item">
+            <a class="logo" href="#">
+              <img class="logo__img" src="./images/logoContacts.svg" alt="логотип">
+            </a>
+          </li>
+          <li class="сontacts__item">
+            <a class="сontacts__link"
+              href="https://www.google.pl/maps/place/%D0%A8%D0%B0%D1%80%D0%B8%D0%BA%D0%BE%D0%BF%D0%BE%D0%B4%D1%88%D0%B8%D0%BF%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB.,+4+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+4%D0%90,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+115088/@55.719887,37.6681993,17z/data=!3m1!4b1!4m6!3m5!1s0x46b54b2a3340eafb:0xa93074dbe6e65ff9!8m2!3d55.719887!4d37.670388!16s%2Fg%2F11c1zhm834">
+              Москва, ул Шарикоподшипниковская д.4 к.4а
+            </a>
+          </li>
+          <li class="сontacts__item">
+            <a class="сontacts__link" href="mailto:info@krepair.ru">
+              info@krepair.ru
+            </a>
+          </li>
+          <li class="сontacts__item">
+            <a class="сontacts__link" href="tel:74992262928">
+              +7 499 226 29 28
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./images/logoContacts.svg" alt="логотип">
+        </a>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Прайс-лист
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Услуги
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Ремонт телефонов
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              О компании
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Ремонт аудио техники
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Ремонт электротранспорта
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Контакты
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Ремонт видео техники
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="404.html">
+              Политика конфиденциальности
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
